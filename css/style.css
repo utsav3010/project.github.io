@@ -1,0 +1,413 @@
+@import url('font-face.css');
+
+* {
+    font-family: Poppins-Regular;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+#clk-btn ul {
+    margin-left: 40%;
+}
+
+.cont-sec {
+    width: 100%;
+    height: 400px;
+    background: url('../image/main-img.png');
+    background-size: 100% 450px;
+}
+
+.cont-main h1 {
+    font-family: Poppins-Bold;
+    margin-left: 3%;
+}
+
+.cont-main p {
+    margin-left: 3%;
+}
+
+.cont-main button {
+    width: 14%;
+    height: auto;
+    background-color: #f64b3c;
+    font-family: Poppins-Bold;
+    padding: 6px;
+    margin-left: 3%;
+    border-radius: 20px;
+}
+
+.our-chef h1 {
+    color: #f64b3c;
+    font-family: Poppins-Bold;
+}
+
+.our-chef-para {
+    color: #f64b3c;
+}
+
+.chef h4 {
+    color: #f64b3c;
+    font-family: Poppins-Bold;
+}
+
+.chef p {
+    color: #f64b3c;
+}
+
+.best-burger {
+    width: 100%;
+    height: 500px;
+    background-color: #f64b3c;
+}
+
+.best-burger-image img {
+    width: 55%;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+.best-burger-cont h1 {
+    margin-top: 24%;
+    color: white;
+    font-family: Poppins-Bold;
+}
+
+.best-burger-cont button {
+    width: 30%;
+    color: #f64b3c;
+    font-family: Poppins-Bold;
+    padding: 6px;
+    border-radius: 20px;
+}
+
+.big-burger-cont {
+    margin-left: 30%;
+    margin-top: 20%;
+}
+
+.big-burger-cont h1 {
+    color: #f64b3c;
+    font-family: Poppins-Bold;
+}
+
+.big-burger-cont p {
+    color: #f64b3c;
+}
+
+.big-burger-cont button {
+    width: 40%;
+    background-color: #f64b3c;
+    color: white;
+    font-family: Poppins-Bold;
+    padding: 6px;
+    border-radius: 20px;
+}
+
+.big-burger-image img {
+    width: 55%;
+    margin-top: 6%;
+    margin-left: 15%;
+}
+
+.statistics {
+    background-color: #f64b3c;
+}
+
+.statistics h1 {
+    font-family: Poppins-Bold;
+}
+
+.stat-circle {
+    width: 65%;
+    height: 200px;
+    margin-left: 15%;
+}
+
+.stat-circle h1 {
+    margin-top: 20%;
+}
+
+.popular-package h1 {
+    color: #f64b3c;
+    font-family: Poppins-Bold;
+}
+
+.card h3 {
+    color: #f64b3c;
+    font-family: Poppins-Bold;
+}
+
+.card h5 {
+    color: #f64b3c;
+    font-family: Poppins-Bold;
+}
+
+.card p {
+    color: #f64b3c;
+}
+
+.card a {
+    width: 80%;
+    background-color: #f64b3c;
+    border-radius: 30px;
+    font-family: Poppins-Bold;
+}
+
+.barry-henderson {
+    width: 100%;
+    height: 600px;
+    background: url('../image/barry-henderson.png') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.barry-henderson::before {
+    width: 100%;
+    height: 600px;
+    content: '';
+    right: 0;
+    background-color: #f35e4e;
+    opacity: 0.6;
+    position: absolute;
+}
+
+.barry-henderson p {
+    position: relative;
+    top: 40%;
+    font-family: Poppins-Bold;
+}
+
+.barry-henderson h3 {
+    position: relative;
+    top: 55%;
+    font-family: Poppins-Bold;
+}
+
+.update-form {
+    margin-top: 3%;
+}
+
+.update h1 {
+    color: #f64b3c;
+    font-family: Poppins-Bold;
+}
+
+.update p {
+    color: #f64b3c;
+}
+
+.update-form input {
+    width: 45%;
+    border-radius: 50px;
+    padding: 7.5px;
+    border: 1px solid;
+    position: relative;
+}
+
+.update-form button {
+    width: 10%;
+    border-radius: 50px;
+    padding: 9px;
+    background-color: #f64b3c;
+    color: white;
+    font-family: Poppins-Bold;
+    position: absolute;
+    left: 63%;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.footer {
+    margin-left: 3%;
+}
+
+.footer p {
+    padding: 15px 0px;
+}
+
+.footer p,
+li {
+    font-family: Nunito-Regluar;
+}
+
+.footer ul li {
+    padding: 7px 0px;
+}
+
+
+
+/* apply media query  */
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+    #clk-btn {
+        margin-top: 3%;
+        border-top: 2px solid white;
+    }
+
+    #clk-btn ul {
+        margin-top: 2%;
+        margin-left: 24%;
+    }
+
+    .cont-sec {
+        width: 100%;
+        height: 310px;
+    }
+
+    .no {
+        display: none;
+    }
+
+    .cont-main h1 {
+        margin-left: 1%;
+        font-size: 25px;
+    }
+
+    .cont-main p {
+        margin-left: 2%;
+        font-size: 14px;
+    }
+
+    .cont-main button {
+        width: 50%;
+    }
+
+    .best-burger {
+        width: 100%;
+        height: 550px;
+    }
+
+    .best-burger-image img {
+        width: 80%;
+        margin-top: 12%;
+        margin-left: 9%;
+    }
+
+    .best-burger-cont h1 {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .best-burger-cont p {
+        text-align: center;
+    }
+
+    .best-burger-cont button {
+        width: 60%;
+        padding: 8px;
+        margin-left: 19%;
+        margin-top: 5%;
+    }
+
+    .big-burger-cont {
+        margin-left: 0%;
+        margin-top: 9%;
+    }
+
+    .big-burger-cont h1 {
+        text-align: center;
+    }
+
+    .big-burger-cont p {
+        text-align: center;
+    }
+
+    .big-burger-cont button {
+        width: 60%;
+        padding: 8px;
+        margin-left: 19%;
+    }
+
+    .big-burger-image img {
+        width: 80%;
+        margin-top: 8%;
+        margin-left: 10%;
+    }
+
+    .stat-circle {
+        width: 80%;
+        height: 150px;
+        margin-left: 10%;
+        margin-top: 7%;
+    }
+
+    .stat-circle h1 {
+        margin-top: 20%;
+    }
+
+    .card {
+        width: 17rem;
+        margin-top: 5%;
+    }
+
+    .card a {
+        width: 90%;
+        padding: 6px;
+    }
+
+    .barry-henderson {
+        width: 100%;
+        height: 400px;
+        background: url('../image/barry-henderson.png') no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .barry-henderson::before {
+        width: 100%;
+        height: 400px;
+        content: '';
+        right: 0;
+        background-color: #f35e4e;
+        opacity: 0.6;
+        position: absolute;
+    }
+
+    .barry-henderson p {
+        position: relative;
+        top: 20%;
+        font-family: Poppins-Bold;
+    }
+
+    .barry-henderson h3 {
+        position: relative;
+        top: 35%;
+        font-family: Poppins-Bold;
+    }
+
+    .update-form {
+        margin-top: 0;
+    }
+
+    .update-form input {
+        width: 100%;
+        border-radius: 50px;
+        padding: 7.5px;
+        position: inherit;
+    }
+
+    .update-form button {
+        width: 100%;
+        padding: 9px;
+        position: inherit;
+        border-radius: 50px;
+        margin-top: 2%;
+    }
+
+    .footer {
+        margin-left: 0;
+    }
+
+    .footer p {
+        padding: 5px 0px;
+    }
+
+    .footer ul li {
+        padding: 5px 0px;
+    }
+}
